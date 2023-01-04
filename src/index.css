@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .attribution {
+        @apply text-accent bg-white p-1 rounded inline-block
+    }
+}
