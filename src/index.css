@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-behavior: smooth;
+    scroll-margin: 100px;
+}
+
 @layer components {
     .attribution {
         @apply text-accent bg-white p-1 rounded inline-block

@@ -1,6 +1,5 @@
 import React from 'react'
 import { numbers } from '../constants/numbers'
-import NumbersSectionCard from './subcomponents/NumbersSectionCard'
 
 const Numbers = () => {
   return (
@@ -9,6 +8,23 @@ const Numbers = () => {
             return <NumbersSectionCard key={number.id} icon={number.icon} title={number.title} number={number.number} />
         })}
     </section>
+  )
+}
+
+
+const NumbersSectionCard = ({ icon, title, number }) => {
+  return (
+    <div className='w-[20rem] rounded-lg flex flex-col items-center bg-white shadow py-6 gap-3'>
+        <p className='text-6xl text-primary'>
+            {icon}
+        </p>
+        <h2 className='text-3xl text-secondary'>
+            {title}
+        </h2>
+        <span className='text-4xl font-bold text-accent-focus'>
+            +{number}
+        </span>
+    </div>
   )
 }
 

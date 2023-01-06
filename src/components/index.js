@@ -5,6 +5,7 @@ import { default as Services } from "./Services";
 import { default as Security } from "./Security";
 import { default as Numbers } from "./Numbers";
 import { default as Supporters } from "./Supporters";
+import { default as Testimonials } from "./Testimonials";
 
 
-export { Navbar, Hero, Services, Security, Numbers, Supporters, Footer }
+export { Navbar, Hero, Services, Security, Numbers, Supporters, Testimonials, Footer }

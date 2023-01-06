@@ -3,7 +3,7 @@ import { supporters } from '../constants/supporters'
 
 const Supporters = () => {
   return (
-    <section className='flex flex-col items-center gap-7 px-4 mb-40 bg-base-200 py-16 shadow-inner'>
+    <section className='flex flex-col items-center gap-7 px-4 mb-32 bg-base-200 py-16 shadow-inner'>
       <h2 className='font-bold text-primary text-4xl'>
         Major Supporters ✨
       </h2>

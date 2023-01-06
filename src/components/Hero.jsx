@@ -16,7 +16,7 @@ const Hero = () => {
 						hosting partner. We look forward to working with you and helping you
 						succeed online!
 					</p>
-					<button className="btn btn-primary">Get Started</button>
+					<a href="#services" className="btn btn-primary">Get Started</a>
 				</div>
 				<img src={databaseImage} alt="database" className="max-w-sm" />
 			</div>
