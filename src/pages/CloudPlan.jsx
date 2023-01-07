@@ -1,8 +1,12 @@
 import React from 'react'
+import { HeroCloud, Plans } from '../components/cloud'
 
 const CloudPlan = () => {
   return (
-    <main>CloudPlan</main>
+    <main>
+      <HeroCloud />
+      <Plans />
+    </main>
   )
 }
 

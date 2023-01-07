@@ -10,6 +10,7 @@ const Home = () => {
         <Numbers />
         <Supporters />
         <Testimonials />
+        <hr className='border-secondary border-[1px] bg-secondary rounded-lg my-20 mx-4' />
     </main>
   )
 }

@@ -6,16 +6,19 @@ export const testimonials = [
     {
         id: 1,
         image: img1,
-        content: "I have been using Gazali hosting for the past year and I am extremely satisfied with the service. The team is always quick to respond to any issues I have, and the uptime has been consistently high. The user interface is easy to use and the pricing is very competitive. I highly recommend Gazali hosting to anyone looking for reliable hosting."
+        name: "Jack Smith",
+        content: "I have been using Gazali hosting for the past year and I am extremely satisfied with the service. The team is always quick to respond to any issues I have. The user interface is easy to use and the pricing is very competitive. I highly recommend Gazali hosting to anyone."
     },
     {
         id: 2,
         image: img2,
+        name: "David Johnson",
         content: "I switched to Gazali hosting a few months ago and I couldn't be happier. The customer service is top-notch and the pricing is very reasonable. My websites are always up and running smoothly thanks to Gazali hosting. I highly recommend giving them a try."
     },
     {
         id: 3,
         image: img3,
+        name: "Michael Williams",
         content: "I have been using Gazali hosting for all of my websites and have never had any issues. The support team is always available and helpful, and the loading speeds are fast. I highly recommend Gazali hosting to anyone in need of a dependable hosting solution."
     }
 ]

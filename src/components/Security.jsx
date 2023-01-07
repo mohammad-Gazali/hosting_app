@@ -3,8 +3,8 @@ import securityImage from '../assets/security.png'
 
 const Security = () => {
   return (
-    <section className='px-5 flex flex-wrap items-center'>
-        <img className='max-w-lg' src={securityImage} alt="security" />
+    <section className='px-5 Security flex flex-wrap items-center'>
+        <img className='md:max-w-lg max-w-md' src={securityImage} alt="security" />
         <div className='flex flex-col flex-1 gap-3 items-start text-lg'>
             <h2 className='text-4xl font-bold text-primary'>
                 Secure Hosting

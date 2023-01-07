@@ -28,12 +28,22 @@ const Footer = () => {
 			<section className="footer bg-neutral text-secondary-content px-10 py-4 border-t border-neutral-focus">
 				<div className="items-center grid-flow-col">
 					<div>
-						Images Powerd By:
+						Images And Web illustrations Powerd By:
 						<ul className="mt-2 flex flex-col gap-2">
 							<li>
 								<a className="attribution" href="https://www.freepik.com/free-vector/server-concept-illustration_5357389.htm#query=hosting&position=4&from_view=search&track=sph">
 									storyset
 								</a> on Freepik
+							</li>
+							<li>
+								<a className="attribution" href="https://www.freepik.com/free-vector/man-engineer-working-computer-server-rack-switchboard-guy-switching-panel-cabinet-with-plugged-ethernet-optical-cables-telecommunications-engineering-concept-flat-illustration_20827816.htm#query=server&position=17&from_view=search&track=sph">
+									pch.vector
+								</a> on Freepik
+							</li>
+							<li>
+								<a className="attribution text-secondary font-bold" href="https://storyset.com/web">
+									Storyset
+								</a>
 							</li>
 							<li> 
 								<a className="attribution text-secondary font-bold" href="https://www.freepik.com/free-vector/hand-drawn-flat-design-sql-illustration_21901977.htm#query=database%20white&position=7&from_view=search&track=sph">

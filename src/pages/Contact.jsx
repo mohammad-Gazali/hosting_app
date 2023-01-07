@@ -24,6 +24,7 @@ const Contact = () => {
                 Sincerely,<br />
                 <span className='font-bold text-accent text-2xl'>Gazali Hosting</span>
             </p>
+            <hr className='border-secondary border-[1px] bg-secondary rounded-lg mt-20' />
         </div>
     </main>
   )

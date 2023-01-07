@@ -7,7 +7,7 @@ const Supporters = () => {
       <h2 className='font-bold text-primary text-4xl'>
         Major Supporters ✨
       </h2>
-      <ul className='flex gap-5'>
+      <ul className='flex flex-wrap gap-5'>
         {supporters.map(supporter => {
           return (
             <li key={supporter.id} className="flex flex-col items-center gap-4 p-4 w-32 shadow-lg rounded-lg bg-white">
